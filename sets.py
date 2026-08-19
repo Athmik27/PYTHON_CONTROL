@@ -1,42 +1,42 @@
 # class set      # create an empty set by set()
-#my_set={"kumar","vishwa"}
-#print(type(my_set))
+my_set={"kumar","vishwa"}
+print(type(my_set))
 
 #convert list to set
-#my_list=["kumar","vishwa"]
-#my_set=set(my_list)
-#print(my_set)
+my_list=["kumar","vishwa"]
+my_set=set(my_list)
+print(my_set)
 
 ##convert dictionary to set
-#my_dict = {
-    #'name': 'Athmik',  # in dict we have {key:value}
-    #'age': 20,
-    #'course': 'B.Tech'
-#}
-#my_set = set(my_dict)
-#print(my_set)
-#set(my_dict)          # keys
-#set(my_dict.keys())   # keys
-#set(my_dict.values()) # values
-#set(my_dict.items())  # key-value pairs
+my_dict = {
+    'name': 'Athmik',  # in dict we have {key:value}
+    'age': 20,
+    'course': 'B.Tech'
+}
+my_set = set(my_dict)
+print(my_set)
+set(my_dict)          # keys
+set(my_dict.keys())   # keys
+set(my_dict.values()) # values
+set(my_dict.items())  # key-value pairs
 
 #modify an set by add or update method
-#my_set={"Kumar","John"}
-#my_set.add(10)
-#print(my_set)
-#my_set.update({"Jack","Tony"})
-#print(my_set)
+my_set={"Kumar","John"}
+my_set.add(10)
+print(my_set)
+my_set.update({"Jack","Tony"})
+print(my_set)
 
 # deleting an set by remove,dicard,pop,clear method
-#my_set={"Kumar","John","Tony","Anil"}
-#my_set.discard("Kumar")
-#print(my_set)
-#my_set.remove("Tony")
-#print(my_set)
-#my_set.pop()
-#print(my_set)# pop and clear wont take any argument
-#my_set.clear()
-#print(my_set)
+my_set={"Kumar","John","Tony","Anil"}
+my_set.discard("Kumar")
+print(my_set)
+my_set.remove("Tony")
+print(my_set)
+my_set.pop()
+print(my_set)# pop and clear wont take any argument
+my_set.clear()
+print(my_set)
 
 #set operation
 set_1={10,20,30,40,50}
