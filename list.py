@@ -71,6 +71,6 @@ my_list=['MATHS','SCIENCE',100,200,300]
 my_list.remove(200)     
 print(my_list)
 
-#my_list=['MATHS','SCIENCE',100,200,300]
-#my_list.remove()  #this gives an error as one argument needs to be passed#   
-#print(my_list)
+my_list=['MATHS','SCIENCE',100,200,300]
+my_list.remove()  #this gives an error as one argument needs to be passed#   
+print(my_list)
