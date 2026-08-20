@@ -22,20 +22,20 @@ set(my_dict.items())  # key-value pairs
 
 #modify an set by add or update method
 my_set={"Kumar","John"}
-my_set.add(10)
+my_set.add(10)# add takes only one argument
 print(my_set)
-my_set.update({"Jack","Tony"})
+my_set.update({"Jack","Tony"}) #update must be in the format set.update({})
 print(my_set)
 
 # deleting an set by remove,dicard,pop,clear method
 my_set={"Kumar","John","Tony","Anil"}
-my_set.discard("Kumar")
+my_set.discard("Kumar")#remove and discard takes only one argument
 print(my_set)
-my_set.remove("Tony")
+my_set.remove("Tony")#remove gives an key error if that value is not found in the set.
 print(my_set)
 my_set.pop()
-print(my_set)# pop and clear wont take any argument
-my_set.clear()
+print(my_set)# pop and clear  take's no argument
+my_set.clear()#when used clear() we get an empty set
 print(my_set)
 
 #set operation
