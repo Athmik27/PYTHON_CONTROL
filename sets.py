@@ -47,11 +47,11 @@ set_4=set_1.intersection(set_2)
 print(set_4)
 set_5=set_1.difference(set_2)
 print(set_5)
-set_6=set_1.symmetric_difference(set_2)
+set_6=set_1.symmetric_difference(set_2)#all the values except the common in both set.
 print(set_6)
-set_7=set_1.issubset(set_2)
+set_7=set_1.issubset(set_2)#values of set 1 in set 2
 print(set_7)
-set_8=set_2.issuperset(set_1)
+set_8=set_1.issuperset(set_2)#values of set 2 in set 1
 print(set_8)
 set_9=set_1.isdisjoint(set_2)
 print(set_9)
