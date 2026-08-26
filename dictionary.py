@@ -16,7 +16,7 @@ student["college"] = "ABC College"
 
 #delete method
 student.pop("age")
-del student["branch"]#del deletes the item but doesn't return it. pop() removes and returns the value. so we use [] for dwlwte and () for pop.
+del student["branch"]#del deletes the item but doesn't return it. pop() removes and returns the value. so we use [] for delete and () for pop.
 
 #getting an key
 print(student.keys())
