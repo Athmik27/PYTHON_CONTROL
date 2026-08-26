@@ -6,7 +6,7 @@ print(tuple[3])
 
 #slicing
 tuple=(10,20,30,40,50,60,70,80)
-print(tuple[0:4])
+print(tuple[0:4])  # we use [ ] for indexing and slicing
 print(tuple[0:])
 print(tuple[:])
 
