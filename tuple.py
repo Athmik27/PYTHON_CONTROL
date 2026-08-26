@@ -1,5 +1,6 @@
 #tuple is immutable list ao it do not support the operations that list do.
 tuple=(10,20,30,"Athmik")
+
 #indexing
 print(tuple[3])
 
