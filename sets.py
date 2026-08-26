@@ -22,13 +22,20 @@ set(my_dict.items())  # key-value pairs
 
 #modify an set by add or update method
 my_set={"Kumar","John"}
+<<<<<<< HEAD
 my_set.add(10)# add takes only one argument
 print(my_set)
 my_set.update({"Jack","Tony"}) #update must be in the format set.update({})
+=======
+my_set.add(10)
+print(my_set)
+my_set.update({"Jack","Tony"})
+>>>>>>> 926360c (Added tuple and dictionary concepts)
 print(my_set)
 
 # deleting an set by remove,dicard,pop,clear method
 my_set={"Kumar","John","Tony","Anil"}
+<<<<<<< HEAD
 my_set.discard("Kumar")#remove and discard takes only one argument
 print(my_set)
 my_set.remove("Tony")#remove gives an key error if that value is not found in the set.
@@ -36,6 +43,15 @@ print(my_set)
 my_set.pop()
 print(my_set)# pop and clear  take's no argument
 my_set.clear()#when used clear() we get an empty set
+=======
+my_set.discard("Kumar")
+print(my_set)
+my_set.remove("Tony")
+print(my_set)
+my_set.pop()
+print(my_set)# pop and clear wont take any argument
+my_set.clear()
+>>>>>>> 926360c (Added tuple and dictionary concepts)
 print(my_set)
 
 #set operation
