@@ -5,8 +5,9 @@ student = {
     "branch": "CSE"
 }
 print(student["name"])
-print(student["age"])
-
+print(student["age"])    #[ ] means access or select something 
+                         # [] → access/select
+                         #() → call/execute a function or method
 #use of get()
 print(student.get("name"))
 
