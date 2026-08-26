@@ -10,10 +10,10 @@ print(student["age"])
 #use of get()
 print(student.get("name"))
 
-#update
+#update method
 student["college"] = "ABC College"
 
-#delete
+#delete method
 student.pop("age")
 del student["branch"]#del deletes the item but doesn't return it. pop() removes and returns the value. so we use [] for dwlwte and () for pop.
 
