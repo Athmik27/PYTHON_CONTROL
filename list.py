@@ -48,9 +48,14 @@ print(my_list)
 #deleting an element from the list this can be done by 3 ways
 
 #(1) by del keyword
-my_list=['MATHS','SCIENCE',100,200,300]
+my_list=['MATHS','SCIENCE',100,200,300]           #Syntax	      What it is
 del my_list[-1] 
-print(my_list)
+print(my_list)                                    # del	           Python keyword so we use [ ]
+                                                  # remove()	     List method  so we use ()
+                                                  # pop()          List method
+                                                  # append()	     List method
+                                                  # clear()	       List method
+
 
 
 #(2) pop keyword
